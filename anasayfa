@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <link rel="stylesheet" href="gth.css">
+        <meta charset="UTF-8">
+        <title>Çavus</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Spline+Sans&display=swap" rel="stylesheet">
+        <style>
+            body{
+    background-image: url("./1132053.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 50%;
+    height: 550px;
+    margin-top: 50px;
+    position: relative;
+    left: 25%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.9;
+
+}
+
+.hc1{
+    display: inline-block;
+    position: relative;
+    left: 30%;
+    top: 20px;
+    font-size: 50px;
+    font-weight: 1000;
+    color: rgb(255, 255, 255);
+}
+
+.inputx{
+    display: inline-block;
+    position: relative;
+    top: 80px;
+    width: 30%;
+    height: 40px;
+    right: 20px;
+    border: 2px solid rgb(0, 255, 98);
+    padding-left: 5px;
+    font-size: 20px;
+    border-radius: 6px;
+
+    
+}
+.inputy{
+    display: inline-block;
+    position: relative;
+    top: 140px;
+    width: 30%;
+    height: 40px;
+    right: 229px;
+    padding-left: 5px;
+    font-size: 20px;
+    border: 2px solid rgb(0, 255, 98);
+    border-radius: 6px;
+}
+
+.inputy:focus{
+    outline: 0;
+}
+.inputx:focus{
+    outline: 0;
+}
+
+
+        </style>
+
+
+    </head>
+    <body  class="anabody">
+
+        <div class="container">
+
+           
+            <h1 class="hc1">
+                GTH GİRİŞ
+            </h1>
+
+            <input type="text" placeholder="E Posta" class="inputx">
+            <input type="password" placeholder="Parola" class="inputy">
+
+
+        </div>
+
+  
+
+    </body>
+</html>
